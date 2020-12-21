@@ -1,0 +1,44 @@
+:root {
+  --text-primary: #fff;
+  --text-secondary: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.intro {
+  height: 100vh;
+
+  video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7rem;
+    color: var(--text);
+  }
+}
+
+section {
+  height: 100vh;
+  color: var(--text-secondary);
+
+  h1 {
+      padding-top: 300px;
+      text-align: center;
+      font-size: 7rem;
+  }
+}

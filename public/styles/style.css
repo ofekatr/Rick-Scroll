@@ -1,0 +1,48 @@
+:root {
+  --text-primary: #fff;
+  --text-secondary: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 7rem;
+  color: var(--text);
+}
+
+section {
+  height: 100vh;
+  color: var(--text-secondary);
+}
+
+section h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 7rem;
+}
+/*# sourceMappingURL=style.css.map */
