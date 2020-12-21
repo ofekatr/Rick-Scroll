@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 :root {
   --text-primary: #fff;
   --text-secondary: #000;
@@ -11,7 +12,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Lobster', cursive;
 }
 
 .intro {

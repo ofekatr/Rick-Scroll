@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 :root {
   --text-primary: #fff;
   --text-secondary: #000;
@@ -10,7 +12,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Lobster', cursive;
 }
 
 .intro {
@@ -28,7 +30,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 7rem;
-    color: var(--text);
+    color: var(--text-primary);
   }
 }
 
