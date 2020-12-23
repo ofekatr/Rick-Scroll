@@ -2,6 +2,6 @@
 
 A practice project for different scroll controlled animations, including a background video, controlled by scrollbar movements.
 
-A demo can be found <a href="https://practical-booth-49cdf6.netlify.app/">here.</a>
+A demo can be found <a target="_about" href="https://practical-booth-49cdf6.netlify.app/">here.</a>
 
 Impelented using GSAP and ScrollMagic.
